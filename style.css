@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+
+
+
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif; 
+}
+
+header {
+	display: flex;
+	width: 100%;
+	height: 10vh;
+	margin: auto;
+    align-items: center;
+    background: #004463;
+}
+
+.logo-container{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    width: 2em;
+    margin: 0px 10px;
+}
+
+.logotip{
+    width: 9em;
+    justify-content: center;
+}
+
+nav{
+    display: flex;
+	width: 100%;
+	height: 10vh;
+	margin: auto;
+    justify-content: center;
+}
+
+.nav-link {
+    justify-content: space-around;
+    text-align: center;
+	color: #004463;
+	font-size: 20px;
+    text-decoration: none;
+    padding: 0px 20px;
+}
+
+.imgTablet{
+    display: none;
+}
+.imgPhone{
+    display: none;
+}
+.imgChange{
+    display: block;
+    width: 100%;
+}
+
+.hambuger {
+    width: 20px;
+    display: none;
+}
+
+
+@media screen and (max-width: 640px){
+    header {
+        display: flex;
+        width: 100%;
+        height: 10vh;
+        margin: auto;
+        align-items: center;
+        background: #004463;
+    }
+    .logo-container{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .nav-container{
+        display: none;
+    }
+    .logo{
+        display: none;
+    }
+
+    .hambuger{
+        display: block;
+        float: left;
+        margin: 0px 20px;  
+    }
+    
+    .imgTablet{
+        display: none;
+    }
+    .imgChange{
+        display: none;
+    }
+    .imgPhone{
+        display: block;
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-width: 1024px){
+    .imgChange{
+      display: none;
+    }
+    .imgPhone{
+        display: none;
+    }
+    .imgTablet{
+        display: block;
+        width: 100%;
+    }
+
+}
