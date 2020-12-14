@@ -72,14 +72,6 @@ nav{
 
 
 @media screen and (max-width: 640px){
-    header {
-        display: flex;
-        width: 100%;
-        height: 10vh;
-        margin: auto;
-        align-items: center;
-        background: #004463;
-    }
     .logo-container{
         width: 100%;
         display: flex;
@@ -98,16 +90,16 @@ nav{
         margin: 0px 20px;  
     }
     
-    .imgTablet{
+    /* .imgTablet{
         display: none;
-    }
-    .imgChange{
-        display: none;
-    }
+    } */
     .imgPhone{
         display: block;
         width: 100%;
     }
+    /* .imgChange{
+        display: none;
+    } */
 
 }
 
